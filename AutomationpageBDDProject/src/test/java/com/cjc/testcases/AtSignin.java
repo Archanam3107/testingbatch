@@ -17,7 +17,7 @@ public class AtSignin
 		
 	WebDriver driver=Comman.openchrome("chrome", "http://automationpractice.com/index.php?controller=authentication&back=my-account");
 	SignIn a=new SignIn(driver);
-	System.out.println("hello..SignIn completed");
+	System.out.println("hello..SignIn completed.......");
 	a.signin();
 	
 	String url=driver.getCurrentUrl();
